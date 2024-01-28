@@ -1,0 +1,6 @@
+This belated web map was created in Leaflet.js for the week four with the theme "Municipal/Local Data" for the #MapPromptMonday. This is a weekly social mapping project open to everyone!
+More about it here: https://github.com/MapPromptMonday
+The University of Edinburgh provided the data. The dataset contained four shapefiles depicting wind farms (Operational, Constructed, Consented and Proposed) in Great Britain in 2011. Operational sites also include the power in MW. The positional accuracy of the data is different. Sites are represented as points but, in reality, will occupy an area. The dataset was first prepared in QGIS; four layers were merged into one and clipped to the Scotland area. Finally, the shapefile was converted as GeoJSON with EPSG:4326 (WGS 84) coordinate system and then added to a Leaflet map. Initially, I wanted to test the clustering plugin, and it worked, BUT the popups did not work. It only showed the last item in the dataset. 
+One colossal frustration here! I tried a few solutions, such as eachLayer method, after creating the layer, but this did not work. Finally, I have decided to leave out the clustering option. 
+Learning in progress here, so I will try to overcome this obstacle for some other map challenge in the future. 
+Follow me on Twitter/X, where I go by @geoTochka
